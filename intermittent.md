@@ -59,14 +59,18 @@ Member Billing Page Validate Your Purchases page Validated purchased bundle page
 
 `Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true`
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-SPEC/JENKINS
+<h4>Spec</h4>
+`spec/features/spaces/settings/checklist_spec`
+
+`Checklist_Settings_as_host_should_be_able_to_complete_the_achievements`
+
+<h4>Error</h4>
+`Failure/Error: expect(page).to have_css(locator, options)
+  expected to find visible css "#edit-landing-description-layout-modal" but there were no matches. Also found "", which matched the selector but not all filters.`
+
+<h4>Jenkins Build</h4>
 https://build.mightystate.com/job/speckel_branch_pipeline/job/iain%252Fmn-18464-create-circle/lastCompletedBuild/testReport/spec.features.spaces.settings/checklist_spec/ci_node_7___Artifacts___Checklist_Settings_as_host_should_be_able_to_complete_the_achievements/
 
-ERROR
-expected to find visible css "#edit-landing-description-layout-modal" but there were no matches. Also found "", which matched the selector but not all filters.
-
-Failure/Error: expect(page).to have_css(locator, options)
-  expected to find visible css "#edit-landing-description-layout-modal" but there were no matches. Also found "", which matched the selector but not all filters.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SPEC
 rspec ./spec/features/courses/editing_visibility_spec.rb:834
