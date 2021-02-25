@@ -9,7 +9,7 @@ rspec ./spec/features/spaces/bundles/bundle_details_spec.rb:48
 
 `Failure/Error: self.status = STATUSES[:empty]
 NoMethodError:
-       undefined method `status=' for #<Asset:0x00007fa0e72abc48>`
+       undefined method status=' for #<Asset:0x00007fa0e72abc48>`
 
 ------------------------------------------------------------------------------------------------
 SPEC
