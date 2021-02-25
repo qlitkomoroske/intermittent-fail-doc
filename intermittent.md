@@ -41,8 +41,8 @@ Member Billing Page Validate Your Purchases page Validated purchased bundle page
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
- `spec/features/courses/locking_spec
- Locking as a host can lock the lessons`
+ `spec/features/courses/locking_spec`
+ `Locking as a host can lock the lessons`
 
 <h4>Error</h4>
 `expected not to find visible css "#flyout-overlay" within #<Capybara::Node::Element tag="body" path="/HTML/BODY[1]">, found 1 match: ""`
