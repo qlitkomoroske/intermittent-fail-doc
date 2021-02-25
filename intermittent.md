@@ -1,11 +1,11 @@
-<h5>Spec</h5>
+<h4>Spec</h4>
 Member Billing Page Single bundle with 1 product when subscription-bundle with 1 plans should
 have bundle product details
 
-<h5>File</h5>
+<h4>File</h4>
 rspec ./spec/features/spaces/bundles/bundle_details_spec.rb:48
 
-<h5>Error</h5>
+<h4>Error</h4>
 
 `Failure/Error: self.status = STATUSES[:empty]
 NoMethodError:
