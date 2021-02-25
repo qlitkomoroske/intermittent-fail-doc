@@ -28,7 +28,7 @@ found 1 match: "Join Us"`
 <h4>Jenkins build</h4>
 https://build.mightystate.com/job/speckel_master/1627/testReport/junit/spec.features/onboarding_visit_paid_network_one_plan_spec/ci_node_4___Artifacts___Onboarding_Visit_Visiting_an_existing_Paid_Network_with_a_single_payment_plan_it_should_behave_like_Paid_Onboarding_in_a_Public_Circle_as_a_non_member_of_the_Circle__but_a_member_of_the_Community_when_joining_and_signing_in/
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
 `spec/features/spaces/member_billing_spec
 Member Billing Page Validate Your Purchases page Validated purchased bundle page when paid subscription bundle should validate purchased bundle page for subscription`
@@ -40,11 +40,12 @@ Member Billing Page Validate Your Purchases page Validated purchased bundle page
 /home/cloudbees-jenkins-distribution/.rvm/gems/ruby-2.4.6/gems/knapsack_pro-1.14.0/lib/knapsack_pro/adapters/rspec_adapter.rb:35:in `block (2 levels) in bind_time_tracker'`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-SPEC
- spec.features.courses.locking_spec.Locking as a host can lock the lessons
+<h4>Spec</h4>
+ `spec/features/courses/locking_spec
+ Locking as a host can lock the lessons`
 
-ERROR
-expected not to find visible css "#flyout-overlay" within #<Capybara::Node::Element tag="body" path="/HTML/BODY[1]">, found 1 match: ""
+<h4>Error</h4>
+`expected not to find visible css "#flyout-overlay" within #<Capybara::Node::Element tag="body" path="/HTML/BODY[1]">, found 1 match: ""`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
