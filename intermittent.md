@@ -1,12 +1,12 @@
 <h4>Spec</h4>
-`Member Billing Page Single bundle with 1 product when subscription-bundle with 1 plans should
-have bundle product details`
+```Member Billing Page Single bundle with 1 product when subscription-bundle with 1 plans should
+have bundle product details```
 
-`spec/features/spaces/bundles/bundle_details_spec.rb:48`
+```spec/features/spaces/bundles/bundle_details_spec.rb:48```
 
 <h4>Error</h4>
 
-`Failure/Error: self.status = STATUSES[:empty]
+Failure/Error: self.status = STATUSES[:empty]
 NoMethodError:
        undefined method status=' for #<Asset:0x00007fa0e72abc48>`
 
