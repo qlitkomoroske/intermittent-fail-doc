@@ -2,7 +2,6 @@
 Member Billing Page Single bundle with 1 product when subscription-bundle with 1 plans should
 have bundle product details
 
-<h4>File</h4>
 rspec ./spec/features/spaces/bundles/bundle_details_spec.rb:48
 
 <h4>Error</h4>
@@ -12,22 +11,22 @@ NoMethodError:
        undefined method status=' for #<Asset:0x00007fa0e72abc48>`
 
 ------------------------------------------------------------------------------------------------
-SPEC
+<h4>Spec</h4>
+
 /spec/features/onboarding_visit_paid_network_one_plan_spec.rb:28
 
-ERROR
-expected not to find visible css "#join-widget .join-button" within
+<h4>Error</h4>
+`expected not to find visible css "#join-widget .join-button" within
 #<Capybara::Node::Element tag="div" path="/HTML/BODY[1]/DIV[5]/DIV[1]/DIV[1]/DIV[1]/DIV[1]">,
-found 1 match: "Join Us"
+found 1 match: "Join Us"`
 
-Stacktrace
-Failure/Error: expect(page).to have_no_css(locator, visible: true)
+`Failure/Error: expect(page).to have_no_css(locator, visible: true)
   expected not to find visible css "#join-widget .join-button" within
   #<Capybara::Node::Element tag="div" path="/HTML/BODY[1]/DIV[5]/DIV[1]/DIV[1]/DIV[1]/DIV[1]">,
-  found 1 match: "Join Us"
+  found 1 match: "Join Us"`
 
-  JENKINS
-  https://build.mightystate.com/job/speckel_master/1627/testReport/junit/spec.features/onboarding_visit_paid_network_one_plan_spec/ci_node_4___Artifacts___Onboarding_Visit_Visiting_an_existing_Paid_Network_with_a_single_payment_plan_it_should_behave_like_Paid_Onboarding_in_a_Public_Circle_as_a_non_member_of_the_Circle__but_a_member_of_the_Community_when_joining_and_signing_in/
+<h4>Jenkins build</h4>
+https://build.mightystate.com/job/speckel_master/1627/testReport/junit/spec.features/onboarding_visit_paid_network_one_plan_spec/ci_node_4___Artifacts___Onboarding_Visit_Visiting_an_existing_Paid_Network_with_a_single_payment_plan_it_should_behave_like_Paid_Onboarding_in_a_Public_Circle_as_a_non_member_of_the_Circle__but_a_member_of_the_Community_when_joining_and_signing_in/
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SPEC
