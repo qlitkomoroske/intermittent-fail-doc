@@ -11,6 +11,7 @@ NoMethodError:
        undefined method status=' for #<Asset:0x00007fa0e72abc48>`
 
 ------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
 
 /spec/features/onboarding_visit_paid_network_one_plan_spec.rb:28
