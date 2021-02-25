@@ -1,12 +1,12 @@
 <h4>Spec</h4>
-```Member Billing Page Single bundle with 1 product when subscription-bundle with 1 plans should
-have bundle product details```
+`Member Billing Page Single bundle with 1 product when subscription-bundle with 1 plans should
+have bundle product details`
 
-```spec/features/spaces/bundles/bundle_details_spec.rb:48```
+`spec/features/spaces/bundles/bundle_details_spec.rb:48`
 
 <h4>Error</h4>
 
-Failure/Error: self.status = STATUSES[:empty]
+`Failure/Error: self.status = STATUSES[:empty]
 NoMethodError:
        undefined method status=' for #<Asset:0x00007fa0e72abc48>`
 
@@ -49,13 +49,15 @@ Member Billing Page Validate Your Purchases page Validated purchased bundle page
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-SPEC/JENKINS
-https://build.mightystate.com/job/speckel_master/lastCompletedBuild/testReport/spec.features.taxes/taxes_spec/ci_node_4___Artifacts___Taxes___taxes_linked_quaderno_account_and_tax_collection_enabled_host_can_unlink_quaderno_account/
+<h4>Spec</h4>
+`spec/features/taxes/taxes_spec`
 
-ERROR
-expected true      got false
-Stacktrace
-Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true
+`taxes_linked_quaderno_account_and_tax_collection_enabled_host_can_unlink_quaderno_account`
+
+<h4>Error</h4>
+`expected true      got false`
+
+`Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true`
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 SPEC/JENKINS
 https://build.mightystate.com/job/speckel_branch_pipeline/job/iain%252Fmn-18464-create-circle/lastCompletedBuild/testReport/spec.features.spaces.settings/checklist_spec/ci_node_7___Artifacts___Checklist_Settings_as_host_should_be_able_to_complete_the_achievements/
