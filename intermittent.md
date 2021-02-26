@@ -33,14 +33,16 @@ https://build.mightystate.com/job/speckel_master/1627/testReport/junit/spec.feat
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
-spec/features/spaces/member_billing_spec
-Member Billing Page Validate Your Purchases page Validated purchased bundle page when paid subscription bundle should validate purchased bundle page for subscription
+
+`spec/features/spaces/member_billing_spec`
+`Member Billing Page Validate Your Purchases page Validated purchased bundle page when paid subscription bundle should validate purchased bundle page for subscription`
 
 <h4>Error</h4>
-RSpec::Expectations::MultipleExpectationsNotMetError`
 
-/spec/spec_helper.rb:298:in block (2 levels) in <top (required)>
-/home/cloudbees-jenkins-distribution/.rvm/gems/ruby-2.4.6/gems/knapsack_pro-1.14.0/lib/knapsack_pro/adapters/rspec_adapter.rb:35:in block (2 levels) in bind_time_tracker'
+`RSpec::Expectations::MultipleExpectationsNotMetError`
+
+`spec/spec_helper.rb:298:in block (2 levels) in <top (required)>`
+`home/cloudbees-jenkins-distribution/.rvm/gems/ruby-2.4.6/gems/knapsack_pro-1.14.0/lib/knapsack_pro/adapters/rspec_adapter.rb:35:in block (2 levels) in bind_time_tracker'`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
