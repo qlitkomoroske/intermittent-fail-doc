@@ -23,7 +23,7 @@ NoMethodError:
 #<Capybara::Node::Element tag="div" path="/HTML/BODY[1]/DIV[5]/DIV[1]/DIV[1]/DIV[1]/DIV[1]">,
 found 1 match: "Join Us"`
 
-Failure/Error: expect(page).to have_no_css(locator, visible: true)
+`Failure/Error: expect(page).to have_no_css(locator, visible: true)
   expected not to find visible css "#join-widget .join-button" within
   #<Capybara::Node::Element tag="div" path="/HTML/BODY[1]/DIV[5]/DIV[1]/DIV[1]/DIV[1]/DIV[1]">,
   found 1 match: "Join Us"`
