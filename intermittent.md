@@ -69,6 +69,7 @@ https://build.mightystate.com/job/speckel_master/1627/testReport/junit/spec.feat
 `expected true got false`
 
 <h5>`Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true`</h5>
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
 
