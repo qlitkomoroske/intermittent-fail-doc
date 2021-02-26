@@ -98,4 +98,5 @@ https://build.mightystate.com/job/speckel_branch_pipeline/job/iain%252Fmn-18464-
 
 <h4>Jenkins Build</h4>
 https://build.mightystate.com/blue/organizations/jenkins/speckel_branch_pipeline/detail/andrea_taxes_3/8/tests
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
