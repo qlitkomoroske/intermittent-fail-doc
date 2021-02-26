@@ -1,27 +1,27 @@
 <h4>Spec</h4>
 
-```Member Billing Page Single bundle with 1 product when subscription-bundle with 1 plans should
-have bundle product details```
+`Member Billing Page Single bundle with 1 product when subscription-bundle with 1 plans should
+have bundle product details`
 
-`spec/features/spaces/bundles/bundle_details_spec.rb:48`
+spec/features/spaces/bundles/bundle_details_spec.rb:48
 
 <h4>Error</h4>
 
-`Failure/Error: self.status = STATUSES[:empty]
+Failure/Error: self.status = STATUSES[:empty]
 NoMethodError:
-       undefined method status=' for #<Asset:0x00007fa0e72abc48>`
+       undefined method status=' for #<Asset:0x00007fa0e72abc48>
 
 ------------------------------------------------------------------------------------------------
 
 <h4>Spec</h4>
-`spec/features/onboarding_visit_paid_network_one_plan_spec.rb:28`
+spec/features/onboarding_visit_paid_network_one_plan_spec.rb:28
 
 <h4>Error</h4>
-`expected not to find visible css "#join-widget .join-button" within
+expected not to find visible css "#join-widget .join-button" within
 #<Capybara::Node::Element tag="div" path="/HTML/BODY[1]/DIV[5]/DIV[1]/DIV[1]/DIV[1]/DIV[1]">,
 found 1 match: "Join Us"`
 
-`Failure/Error: expect(page).to have_no_css(locator, visible: true)
+Failure/Error: expect(page).to have_no_css(locator, visible: true)
   expected not to find visible css "#join-widget .join-button" within
   #<Capybara::Node::Element tag="div" path="/HTML/BODY[1]/DIV[5]/DIV[1]/DIV[1]/DIV[1]/DIV[1]">,
   found 1 match: "Join Us"`
@@ -31,44 +31,43 @@ https://build.mightystate.com/job/speckel_master/1627/testReport/junit/spec.feat
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
-`spec/features/spaces/member_billing_spec
-Member Billing Page Validate Your Purchases page Validated purchased bundle page when paid subscription bundle should validate purchased bundle page for subscription`
+spec/features/spaces/member_billing_spec
+Member Billing Page Validate Your Purchases page Validated purchased bundle page when paid subscription bundle should validate purchased bundle page for subscription
 
 <h4>Error</h4>
-`RSpec::Expectations::MultipleExpectationsNotMetError`
+RSpec::Expectations::MultipleExpectationsNotMetError`
 
-`/spec/spec_helper.rb:298:in `block (2 levels) in <top (required)>'
-/home/cloudbees-jenkins-distribution/.rvm/gems/ruby-2.4.6/gems/knapsack_pro-1.14.0/lib/knapsack_pro/adapters/rspec_adapter.rb:35:in `block (2 levels) in bind_time_tracker'`
+/spec/spec_helper.rb:298:in block (2 levels) in <top (required)>
+/home/cloudbees-jenkins-distribution/.rvm/gems/ruby-2.4.6/gems/knapsack_pro-1.14.0/lib/knapsack_pro/adapters/rspec_adapter.rb:35:in block (2 levels) in bind_time_tracker'
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
- `spec/features/courses/locking_spec`
- `Locking as a host can lock the lessons`
+ spec/features/courses/locking_spec
+ Locking as a host can lock the lessons
 
 <h4>Error</h4>
-`expected not to find visible css "#flyout-overlay" within #<Capybara::Node::Element tag="body" path="/HTML/BODY[1]">, found 1 match: ""`
+expected not to find visible css "#flyout-overlay" within #<Capybara::Node::Element tag="body" path="/HTML/BODY[1]">, found 1 match: ""
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h4>Spec</h4>
-```
+
 spec/features/taxes/taxes_spec
 taxes_linked_quaderno_account_and_tax_collection_enabled_host_can_unlink_quaderno_account
-```
 
 <h4>Error</h4>
-`expected true got false`
+expected true got false
 
 Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
-`spec/features/spaces/settings/checklist_spec`
+spec/features/spaces/settings/checklist_spec
 
-`Checklist_Settings_as_host_should_be_able_to_complete_the_achievements`
+Checklist_Settings_as_host_should_be_able_to_complete_the_achievements`
 
 <h4>Error</h4>
-`Failure/Error: expect(page).to have_css(locator, options)
-  expected to find visible css "#edit-landing-description-layout-modal" but there were no matches. Also found "", which matched the selector but not all filters.`
+Failure/Error: expect(page).to have_css(locator, options)
+  expected to find visible css "#edit-landing-description-layout-modal" but there were no matches. Also found "", which matched the selector but not all filters.
 
 <h4>Jenkins Build</h4>
 https://build.mightystate.com/job/speckel_branch_pipeline/job/iain%252Fmn-18464-create-circle/lastCompletedBuild/testReport/spec.features.spaces.settings/checklist_spec/ci_node_7___Artifacts___Checklist_Settings_as_host_should_be_able_to_complete_the_achievements/
