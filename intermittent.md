@@ -88,13 +88,13 @@ https://build.mightystate.com/job/speckel_branch_pipeline/job/iain%252Fmn-18464-
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
-rspec ./spec/features/courses/editing_visibility_spec.rb:834
+
+`spec/features/courses/editing_visibility_spec.rb:834`
 
 <h4>Error</h4>
-expected to find text "Hidden" in "Visible". (However, it was found 1 time including non-visible text.)
-Stacktrace
-Failure/Error: expect(page).to have_content('Hidden')
-  expected to find text "Hidden" in "Visible". (However, it was found 1 time including non-visible text.)
+
+`Failure/Error: expect(page).to have_content('Hidden')
+  expected to find text "Hidden" in "Visible". (However, it was found 1 time including non-visible text.)`
 
 <h4>Jenkins Build</h4>
 https://build.mightystate.com/blue/organizations/jenkins/speckel_branch_pipeline/detail/andrea_taxes_3/8/tests
