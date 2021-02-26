@@ -35,6 +35,7 @@ https://build.mightystate.com/job/speckel_master/1627/testReport/junit/spec.feat
 <h4>Spec</h4>
 
 `spec/features/spaces/member_billing_spec`
+
 `Member Billing Page Validate Your Purchases page Validated purchased bundle page when paid subscription bundle should validate purchased bundle page for subscription`
 
 <h4>Error</h4>
