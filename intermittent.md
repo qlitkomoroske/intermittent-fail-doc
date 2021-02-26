@@ -55,7 +55,7 @@ Member Billing Page Validate Your Purchases page Validated purchased bundle page
 `taxes_linked_quaderno_account_and_tax_collection_enabled_host_can_unlink_quaderno_account`
 
 <h4>Error</h4>
-`expected true      got false`
+`expected true got false`
 
 `Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true`
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -72,15 +72,15 @@ Member Billing Page Validate Your Purchases page Validated purchased bundle page
 https://build.mightystate.com/job/speckel_branch_pipeline/job/iain%252Fmn-18464-create-circle/lastCompletedBuild/testReport/spec.features.spaces.settings/checklist_spec/ci_node_7___Artifacts___Checklist_Settings_as_host_should_be_able_to_complete_the_achievements/
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-SPEC
+<h4>Spec</h4>
 rspec ./spec/features/courses/editing_visibility_spec.rb:834
 
-ERROR
+<h4>Error</h4>
 expected to find text "Hidden" in "Visible". (However, it was found 1 time including non-visible text.)
 Stacktrace
 Failure/Error: expect(page).to have_content('Hidden')
   expected to find text "Hidden" in "Visible". (However, it was found 1 time including non-visible text.)
 
-JENKINS
+<h4>Jenkins Build</h4>
 https://build.mightystate.com/blue/organizations/jenkins/speckel_branch_pipeline/detail/andrea_taxes_3/8/tests
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
