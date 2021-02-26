@@ -57,7 +57,7 @@ Member Billing Page Validate Your Purchases page Validated purchased bundle page
 <h4>Error</h4>
 `expected true got false`
 
-`Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true`
+Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
 `spec/features/spaces/settings/checklist_spec`
