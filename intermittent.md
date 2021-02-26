@@ -47,32 +47,40 @@ https://build.mightystate.com/job/speckel_master/1627/testReport/junit/spec.feat
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
- spec/features/courses/locking_spec
- Locking as a host can lock the lessons
+
+ `spec/features/courses/locking_spec`
+
+ `Locking as a host can lock the lessons`
 
 <h4>Error</h4>
-expected not to find visible css "#flyout-overlay" within #<Capybara::Node::Element tag="body" path="/HTML/BODY[1]">, found 1 match: ""
+
+`expected not to find visible css "#flyout-overlay" within #<Capybara::Node::Element tag="body" path="/HTML/BODY[1]">, found 1 match: ""`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h4>Spec</h4>
 
-spec/features/taxes/taxes_spec
-taxes_linked_quaderno_account_and_tax_collection_enabled_host_can_unlink_quaderno_account
+`spec/features/taxes/taxes_spec:34`
+
+`taxes linked quaderno account and tax collection enabled host can unlink quaderno account`
 
 <h4>Error</h4>
-expected true got false
 
-Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true
+`expected true got false`
+
+`Failure/Error: expect(page.evaluate_script "$('#proceed-with-checkbox-input').prop('checked')").to be true`
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>Spec</h4>
-spec/features/spaces/settings/checklist_spec
 
-Checklist_Settings_as_host_should_be_able_to_complete_the_achievements`
+`spec/features/spaces/settings/checklist_spec:78`
+
+`Checklist Settings as host should be able to complete achievements`
+
 
 <h4>Error</h4>
-Failure/Error: expect(page).to have_css(locator, options)
-  expected to find visible css "#edit-landing-description-layout-modal" but there were no matches. Also found "", which matched the selector but not all filters.
+
+`Failure/Error: expect(page).to have_css(locator, options)
+  expected to find visible css "#edit-landing-description-layout-modal" but there were no matches. Also found "", which matched the selector but not all filters.`
 
 <h4>Jenkins Build</h4>
 https://build.mightystate.com/job/speckel_branch_pipeline/job/iain%252Fmn-18464-create-circle/lastCompletedBuild/testReport/spec.features.spaces.settings/checklist_spec/ci_node_7___Artifacts___Checklist_Settings_as_host_should_be_able_to_complete_the_achievements/
