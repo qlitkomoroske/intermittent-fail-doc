@@ -7,9 +7,9 @@ have bundle product details`
 
 <h4>Error</h4>
 
-```Failure/Error: self.status = STATUSES[:empty]
+`Failure/Error: self.status = STATUSES[:empty]
 NoMethodError:
-       undefined method status=' for #<Asset:0x00007fa0e72abc48>```
+       undefined method status=' for #<Asset:0x00007fa0e72abc48>`
 
 ------------------------------------------------------------------------------------------------
 
