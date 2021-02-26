@@ -50,9 +50,10 @@ Member Billing Page Validate Your Purchases page Validated purchased bundle page
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h4>Spec</h4>
-`spec/features/taxes/taxes_spec`
-
-`taxes_linked_quaderno_account_and_tax_collection_enabled_host_can_unlink_quaderno_account`
+```
+spec/features/taxes/taxes_spec
+taxes_linked_quaderno_account_and_tax_collection_enabled_host_can_unlink_quaderno_account
+```
 
 <h4>Error</h4>
 `expected true got false`
